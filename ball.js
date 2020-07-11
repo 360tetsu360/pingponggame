@@ -22,11 +22,11 @@ function ball(){
                     if(bounce === 3){
                         bounce = 2;
                         score += 1;
-                        speed += 0.5;
+                        speed += 0.2;
                     }else{
                         bounce = 1;
                         score += 1;
-                        speed += 0.5;
+                        speed += 0.2;
                     }
             }
         }
@@ -36,20 +36,20 @@ function ball(){
         if(this.x <= 10){
             if(bounce === 4){
                 bounce = 3;
-                speed += 0.1;
+
             }else{bounce = 2;}
         }else if(this.y <= 0){
             if(bounce === 1){
                 bounce = 4;
-                speed += 0.1;
+
             }else{
                 bounce = 3;
-                speed += 0.1;
+
             }
         }else if(this.x >= 630){
             if(bounce === 2){
                 bounce = 1;
-                speed += 0.1;
+
             }else{bounce = 4;}
         }else if(this.y > 480){
             fill(255);
