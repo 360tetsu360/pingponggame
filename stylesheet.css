@@ -1,0 +1,13 @@
+body{
+    font-family: 'mp-logo';
+    src: url(mp-logo.ttf);
+    background-color: darkgray;
+
+}
+.GameOver{
+    font-size: 40px;
+    color: red;
+}
+.final_score{
+    font-size: 20px;
+}
